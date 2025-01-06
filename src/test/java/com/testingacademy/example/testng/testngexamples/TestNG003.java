@@ -1,4 +1,4 @@
-package com.testingacademy.example.testng;
+package com.testingacademy.example.testng.testngexamples;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

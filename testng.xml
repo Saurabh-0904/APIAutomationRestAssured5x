@@ -3,12 +3,12 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/saura/APIAutomationRestAssured5x">
         <classes>
-            <class name="com.testingacademy.example.testng.TestNG001">
+            <class name="com.testingacademy.example.testng.testngexamples.TestNG001">
                 <methods>
                     <include name="test1"/>
                 </methods>
             </class>
-            <class name="com.testingacademy.example.testng.TestNG000">
+            <class name="com.testingacademy.example.testng.testngexamples.TestNG000">
                 <methods>
                     <include name="testcase1"/>
                     <include name="testcase2"/>

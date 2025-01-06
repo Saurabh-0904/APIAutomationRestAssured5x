@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/saura/APIAutomationRestAssured5x">
         <classes>
-           <class name="com.testingacademy.example.testng.TestNG003"></class>
+           <class name="com.testingacademy.example.testng.testngexamples.TestNG003"></class>
         </classes>
     </test>
 </suite>

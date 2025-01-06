@@ -1,4 +1,4 @@
-package com.testingacademy.example.testng;
+package com.testingacademy.example.testng.testngexamples;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
