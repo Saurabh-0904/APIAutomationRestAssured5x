@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/saura/APIAutomationRestAssured5x">
-        <classes>
-            <class name="com.testingacademy.example.testng.testngexamples.TestNG001">
-                <methods>
-                    <include name="test1"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.testng.testngexamples.TestNG000">
-                <methods>
-                    <include name="testcase1"/>
-                    <include name="testcase2"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.DELETE.NonBDDStyle">
-                <methods>
-                    <include name="positive1"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.GET.NonBDDStyleTestNG">
-                <methods>
-                    <include name="testGetAllBookingPositive"/>
-                    <include name="testGetAllBookingNegative"/>
-                    <include name="testGetAllBookingNegative2"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.PATCH.NonBDDStyle">
-                <methods>
-                    <include name="Positive1"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.POST.BDDStyle">
-                <methods>
-                    <include name="positiveTest1"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.POST.NonBDDStyle">
-                <methods>
-                    <include name="positiveTest1"/>
-                </methods>
-            </class>
-            <class name="com.testingacademy.example.tests.crud.PUT.NonBDDStyle">
-                <methods>
-                    <include name="Positive1"/>
-                </methods>
-            </class>
-        </classes>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/saura/APIAutomationRestAssured5x/src/test/java/com/testingacademy/example/tests/crud/GET/NonBDDStyleGET.java">
+        <classes/>
     </test>
 </suite>

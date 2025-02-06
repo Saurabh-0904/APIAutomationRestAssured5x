@@ -25,11 +25,12 @@ public class UtilExcel {
 
     static Workbook book;
     static Sheet sheet;
-    public static String FILE_NAME = "src/test/resources/TestData.xlsx";
+    public static String FILE_NAME = "src/test/resources/TestData.xlsx"; //path given of excel sheet
 
     public static Object[][] getTestData (String sheetName) {
 
             //Write the logic to read the excel file and convert this to 2D array
+
             FileInputStream file = null;
             try {
                 file = new FileInputStream(FILE_NAME);
@@ -42,6 +43,7 @@ public class UtilExcel {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+
             sheet = book.getSheet(sheetName);
 
             Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
