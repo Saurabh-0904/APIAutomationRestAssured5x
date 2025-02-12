@@ -1,0 +1,21 @@
+--RestAssured.given().when().then() - DSL (Java)
+
+        Given ->
+            URL =
+            Header = ? , Cookies
+            base URL =
+            base path =
+            Auth = not needed
+
+        When ->
+            Payload = ?
+            GET Method =
+
+
+        Then ->
+            Response Validation
+                Status Code
+                Response Body
+                Time, Headers, Cookies
+------------------------------------------------------------------------
+--Above details also available in test.crud->GET->BDDStyleGET

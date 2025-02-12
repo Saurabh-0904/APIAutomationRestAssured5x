@@ -63,29 +63,29 @@ public class TestNG002 {
             "    \"additionalneeds\" : \"Breakfast\"\n" +
             "}";
 
-    //Setting Content type to specify format in which request payload will be sent.//ContentType is an ENUM
+    //Setting Content type to specify a format in which request payload will be sent.//ContentType is an ENUM
     requestSpecification.contentType(ContentType.JSON);
 
     //Setting a cookie for authentication as per API Documentation
     requestSpecification.cookie("token", token);
 
-    //Adding URI
-        requestSpecification.baseUri("https://restful-booker.herokuapp.com");
-        requestSpecification.basePath("/booking/4465");
-        //Adding Body as a String
-        requestSpecification.body(jsonString);
+    //Adding URI=
+    requestSpecification.baseUri("https://restful-booker.herokuapp.com");
+    requestSpecification.basePath("/booking/4465");
+    //Adding Body as a String
+    requestSpecification.body(jsonString);
 
-        //Calling PUT method on URI. After hitting we're getting Response
-        Response response = requestSpecification.put();
+    //Calling PUT method on URI. After hitting we're getting Response
+    Response response = requestSpecification.put();
 
-        //Printing response as String
-        System.out.println(response.asString());
+    //Printing response as String
+    System.out.println(response.asString());
 
-        //Get Validatable response to perform validation
-        validatableResponse = response.then().log().all();
+    //Get Validatable response to perform validation
+    validatableResponse = response.then().log().all();
 
-        //Validate Status code = 200
-        validatableResponse.statusCode(200);
+    //Validate Status code = 200
+    validatableResponse.statusCode(200);
 
 
     }

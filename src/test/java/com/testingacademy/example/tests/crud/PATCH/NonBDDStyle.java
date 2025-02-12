@@ -36,7 +36,7 @@ public class NonBDDStyle {
 
         requestSpecification.body(payload).log().all();
 
-        //Calling PUT method on URI. After hitting we get response
+        //Calling PUT method on URI. After hitting, we get a response
         Response response = requestSpecification.when().patch();
 
         //Get validatable response to perform validation

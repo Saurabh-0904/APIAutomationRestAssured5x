@@ -21,7 +21,7 @@ public class NonBDDStyle {
         //ID - 1227
         //URL - https://restful-booker.herokuapp.com/booking/1227
         //Authentication - token
-        //Payload - "3c50e0942812c51" - temporarily taken by manually
+        //Payload - "3c50e0942812c51" - temporarily manually taken
         // Headers = Content Type - application/json, Cookie - token
 
         String payload = "{\n" +

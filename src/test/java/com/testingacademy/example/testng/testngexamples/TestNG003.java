@@ -120,6 +120,7 @@ public class TestNG003 {
 
 
     }@Test
+
     public void testPutRequest2(){
         // Token and BookingID
         System.out.println("-- Test case PUT request 2 Only Assertions changed  --");
